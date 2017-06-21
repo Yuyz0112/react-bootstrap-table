@@ -10,7 +10,9 @@
   "scripts": {
     "lint": "eslint src",
     "test": "jest",
-    "start": "gulp example-server"
+    "start": "gulp example-server",
+    "build": "gulp",
+    "es": "BABEL_ENV=es gulp es"
   },
   "keywords": [
     "react",
@@ -35,6 +37,7 @@
     "babel-eslint": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-no-commonjs": "0.0.2",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
     "babelify": "^6.4.0",
